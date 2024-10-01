@@ -16,4 +16,10 @@ public String getScore()
 {
     return teamOneScore +"-"+ teamTwoScore + "-" + activeTeam;
 }
+public void recordPlay(int score)
+{
+    if(teamOne.equals(activeTeam));
+    teamOneScore += score;
+
+}
 }
