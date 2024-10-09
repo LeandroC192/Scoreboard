@@ -23,9 +23,12 @@ public void recordPlay(int score)
         if(activeTeam.equals(teamOne)) activeTeam = teamTwo;
         else if(activeTeam.equals(teamTwo)) activeTeam = teamOne;
     }
-    if(teamOne.equals(activeTeam));
+    if(teamOne.equals(activeTeam)){
     teamOneScore += score;
-     if(activeTeam.equals(teamTwo));
-    teamTwoScore += score;
+    } else{
+        if(activeTeam.equals(teamTwo)){
+        teamTwoScore += score;
+        }
+    }
 }
-}
+} 
